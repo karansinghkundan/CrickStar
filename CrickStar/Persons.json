@@ -1,0 +1,50 @@
+{
+    "Type" : "Player"
+    [{
+        "personid": 1,
+        "personName": "Leanne gramme",
+        "personGender": "Male",
+        "personSponsor": "Grey Nicolas",
+        "playerType": "Batsman",
+        "countryName": "England",
+        "playerJerseyNo": "27",
+        "inPlaying": "true",
+    },
+    {
+        "personid": 2,
+        "personName": "Leanne gramme",
+        "personGender": "Male",
+        "personSponsor": "Grey Nicolas",
+        "playerType": "Batsman",
+        "countryName": "England",
+        "playerJerseyNo": "27",
+        "inPlaying": "true",
+    }
+    ]
+    
+},
+
+{
+    "personid": U2,
+    "personName": "Leon Grill",
+    "personGender": "Male",
+    "personSponsor": "Fly Emirates",
+    "Umpire":
+    {
+        "umpireType": "MatchOfficial",
+        "numberOfMatches": "556",
+        "umpireRank": "1",
+    }
+},
+{
+    "personid": C3,
+    "personName": "Gary Kristen",
+    "personGender": "Male",
+    "personSponsor": "Reebok",
+    "Coach":
+    {
+        "coachCountry": "South Africa",
+        "coachExperience": "3 years",
+        "coachType": "HeadCoach",
+    }
+}

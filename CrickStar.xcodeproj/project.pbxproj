@@ -8,6 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		848258D922B5AB33008242BF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258D822B5AB33008242BF /* main.swift */; };
+		848258E022B5AD45008242BF /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258DF22B5AD45008242BF /* Player.swift */; };
+		848258E222B5AFC5008242BF /* Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E122B5AFC5008242BF /* Display.swift */; };
+		848258E422B5B060008242BF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E322B5B060008242BF /* Person.swift */; };
+		848258E622B5B31F008242BF /* Umpire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E522B5B31F008242BF /* Umpire.swift */; };
+		848258E822B5B52C008242BF /* Coach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E722B5B52C008242BF /* Coach.swift */; };
+		848258EA22B5B75C008242BF /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258E922B5B75C008242BF /* Team.swift */; };
+		848258EC22B5C51F008242BF /* Tournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258EB22B5C51F008242BF /* Tournament.swift */; };
+		848258EE22B5CDFA008242BF /* WorldCup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258ED22B5CDFA008242BF /* WorldCup.swift */; };
+		848258F022B5D78A008242BF /* T20WC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258EF22B5D78A008242BF /* T20WC.swift */; };
+		848258F222B5D8A3008242BF /* ChampionTrophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258F122B5D8A3008242BF /* ChampionTrophy.swift */; };
+		848258F522B5DFD8008242BF /* Persons.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 848258F322B5DA16008242BF /* Persons.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -20,11 +31,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		848258F422B5DFCF008242BF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+				848258F522B5DFD8008242BF /* Persons.json in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		848258D522B5AB33008242BF /* CrickStar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CrickStar; sourceTree = BUILT_PRODUCTS_DIR; };
 		848258D822B5AB33008242BF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		848258DF22B5AD45008242BF /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		848258E122B5AFC5008242BF /* Display.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Display.swift; sourceTree = "<group>"; };
+		848258E322B5B060008242BF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		848258E522B5B31F008242BF /* Umpire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umpire.swift; sourceTree = "<group>"; };
+		848258E722B5B52C008242BF /* Coach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coach.swift; sourceTree = "<group>"; };
+		848258E922B5B75C008242BF /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
+		848258EB22B5C51F008242BF /* Tournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tournament.swift; sourceTree = "<group>"; };
+		848258ED22B5CDFA008242BF /* WorldCup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldCup.swift; sourceTree = "<group>"; };
+		848258EF22B5D78A008242BF /* T20WC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T20WC.swift; sourceTree = "<group>"; };
+		848258F122B5D8A3008242BF /* ChampionTrophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionTrophy.swift; sourceTree = "<group>"; };
+		848258F322B5DA16008242BF /* Persons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Persons.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,17 @@
 			isa = PBXGroup;
 			children = (
 				848258D822B5AB33008242BF /* main.swift */,
+				848258DF22B5AD45008242BF /* Player.swift */,
+				848258E122B5AFC5008242BF /* Display.swift */,
+				848258E322B5B060008242BF /* Person.swift */,
+				848258E522B5B31F008242BF /* Umpire.swift */,
+				848258E722B5B52C008242BF /* Coach.swift */,
+				848258E922B5B75C008242BF /* Team.swift */,
+				848258EB22B5C51F008242BF /* Tournament.swift */,
+				848258ED22B5CDFA008242BF /* WorldCup.swift */,
+				848258EF22B5D78A008242BF /* T20WC.swift */,
+				848258F122B5D8A3008242BF /* ChampionTrophy.swift */,
+				848258F322B5DA16008242BF /* Persons.json */,
 			);
 			path = CrickStar;
 			sourceTree = "<group>";
@@ -72,6 +115,7 @@
 				848258D122B5AB33008242BF /* Sources */,
 				848258D222B5AB33008242BF /* Frameworks */,
 				848258D322B5AB33008242BF /* CopyFiles */,
+				848258F422B5DFCF008242BF /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -119,7 +163,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				848258EC22B5C51F008242BF /* Tournament.swift in Sources */,
+				848258EE22B5CDFA008242BF /* WorldCup.swift in Sources */,
+				848258E022B5AD45008242BF /* Player.swift in Sources */,
+				848258E222B5AFC5008242BF /* Display.swift in Sources */,
+				848258EA22B5B75C008242BF /* Team.swift in Sources */,
+				848258E422B5B060008242BF /* Person.swift in Sources */,
 				848258D922B5AB33008242BF /* main.swift in Sources */,
+				848258F222B5D8A3008242BF /* ChampionTrophy.swift in Sources */,
+				848258E822B5B52C008242BF /* Coach.swift in Sources */,
+				848258F022B5D78A008242BF /* T20WC.swift in Sources */,
+				848258E622B5B31F008242BF /* Umpire.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
