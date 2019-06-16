@@ -8,67 +8,34 @@
 
 import Foundation
 
-func readJsonFile(jsonFileName: String)
-{
-    
-    let url = Bundle.main.url(forResource: jsonFileName, withExtension: "json")
-    guard let jsonData = url else { return }
-    guard let data = try? Data(contentsOf: jsonData)else{ return }
-    guard let json = try? JSONSerialization.jsonObject(with: data, options: [])else{ return }
-    
-    print(json)
-    var personStruct = Person()
-    if let jsonDictionary = json as? [String:Any]
-    {
-        if let id = jsonDictionary["id"] as? Int
-        {
-            print("id : \(id)")
-            personStruct.id=id
-        }
-        if let name = jsonDictionary["name"] as? String
-        {
-            print("name : \(name)")
-            personStruct.name=name
-        }
-        if let username = jsonDictionary["username"] as? String
-        {
-            print("username : \(username)")
-            personStruct.username=username
-        }
-        if let email = jsonDictionary["email"] as? String
-        {
-            print("email : \(email)")
-            personStruct.email=email
-        }
-        var playerStruct : Player
-        //read playerStruct dictionary
-        if let playerStructDict = jsonDictionary["Player"] as? Dictionary<String,Any>
-        {
-            playerStruct = Player()
-            if let street = playerDict["street"] as? String
-            {
-                print("street : \(street)")
-                playerStruct.street=street
-            }
-            if let suite = playerDict["suite"] as? String
-            {
-                print("suite : \(suite)")
-                playerStruct.suite=suite
-            }
-            if let city = playerDict["city"] as? String
-            {
-                print("city : \(city)")
-                playerStruct.city=city
-            }
-            if let zipcode = playerDict["zipcode"] as? String
-            {
-                print("zipcode : \(zipcode)")
-                playerStruct.zipcode=zipcode
-            }
-            personStruct.playerStruct=playerStruct
-            
-        }
-    }
-    print(personStruct.playerStruct)
-}
-readJsonFile(jsonFileName: "Users")
+var player1: Player = Player()
+player1.personId = "1"
+player1.personName = "Leanne gramme"
+player1.personGender = Gender.Male
+player1.personSponsor = "Grey Nicolas"
+player1.playerType = PlayerType.Batsman
+player1.countryName = "India"
+player1.playerJerseyNo = 100
+player1.inPlaying = true
+
+var player2: Player = Player()
+player2.personId = "2"
+player2.personName = "Leanne gramme"
+player2.personGender = Gender.Male
+player2.personSponsor = "Grey Nicolas"
+player2.playerType = PlayerType.Batsman
+player2.countryName = "India"
+player2.playerJerseyNo = 100
+player2.inPlaying = true
+
+var umpire1: Umpire = Umpire()
+umpire1.personId = "1"
+umpire1.personName = "Leanne gramme"
+umpire1.personGender = Gender.Male
+umpire1.personSponsor = "Grey Nicolas"
+umpire1.umpireType = UmpireType.MatchOfficial
+umpire1.numberOfMatches = 100
+umpire1.umpireRank = 1
+
+
+
