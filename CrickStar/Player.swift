@@ -23,7 +23,7 @@ class Player : Person
         self.playerJerseyNo = 0
         self.inPlaying = false
     }
-    override func display() -> String {
-        return "playerType : \(playerType)"+"\ncountryName : \(countryName)\n"+"\nplayerJerseyNo : \(playerJerseyNo)"+"\ninPlaying : \(inPlaying)"
+    override func display() {
+        print( "personId : \(personId)"+"\npersonName : \(personName)"+"\npersonGender : \(personGender)"+"\npersonSponsor : \(personSponsor)\n" + "playerType : \(playerType)"+"\ncountryName : \(countryName)\n"+"\nplayerJerseyNo : \(playerJerseyNo)"+"\ninPlaying : \(inPlaying)")
     }
 }

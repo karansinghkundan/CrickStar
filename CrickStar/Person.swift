@@ -11,22 +11,20 @@ import Foundation
 
 class Person : Display
 {
-    func display() -> String
-    {
-        return "personId : \(personId)"+"\npersonName : \(personName)"+"\npersonGender : \(personGender)"+"\npersonSponsor : \(personSponsor)\n"
-    }
-    
-    var personId : String
+    var personId : Int
     var personName : String
     var personGender : Gender
     var personSponsor : String
     
     init()
     {
-        self.personId = ""
-        self.personName = ""
+        self.personId = Int()
+        self.personName = String()
         self.personGender = Gender.None
-        self.personSponsor = ""
+        self.personSponsor = String()
     }
-    
+    func display()
+    {
+        print( "personId : \(personId)"+"\npersonName : \(personName)"+"\npersonGender : \(personGender)"+"\npersonSponsor : \(personSponsor)\n")
+    }
 }

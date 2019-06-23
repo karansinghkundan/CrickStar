@@ -30,9 +30,9 @@ class Tournament : Display
         self.winningTeam = Team()
     }
     
-    func display() -> String
+    func display()
     {
-        return "tournamentID : \(tournamentID)"+"\nstartDate : \(startDate)"+"\nendDate : \(endDate)"+"\ntournamentName : \(tournamentName)"+"\ntournamentVenue : \(tournamentVenue)"+"\nTeams \nTeam[0] : \(teams[0])"+"\nTeam[1] : \(teams[1])"+"\nTeam[2] : \(teams[2])"+"\nteam[3] : \(teams[3])"+"\nteam[4] : \(teams[4])"+"\nteam[5] : \(teams[5])"+"\nwinningPrize : \(winningPrize)"+"\nwinningTeam : \(winningTeam.teamCountry)"
+        print("tournamentID : \(tournamentID)"+"\nstartDate : \(startDate)"+"\nendDate : \(endDate)"+"\ntournamentName : \(tournamentName)"+"\ntournamentVenue : \(tournamentVenue)"+"\nTeams \nTeam[0] : \(teams[0])"+"\nTeam[1] : \(teams[1])"+"\nTeam[2] : \(teams[2])"+"\nteam[3] : \(teams[3])"+"\nteam[4] : \(teams[4])"+"\nteam[5] : \(teams[5])"+"\nwinningPrize : \(winningPrize)"+"\nwinningTeam : \(winningTeam.teamCountry)")
     }
     
 }

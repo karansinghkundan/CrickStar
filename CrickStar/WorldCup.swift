@@ -13,11 +13,17 @@ class WorldCup : Tournament
     var matchNumber : Int
     var dateofMatch : Date
     var matchType : MatchType
-    var matchWinningTeam : Team
     var Team1 : Team
     var Team2 : Team
-    var Team1Score : String
-    var Team2Score : String
+    var Team1Score : Int
+    var Team2Score : Int
+    var matchWinningTeam : String{
+        if Team1Score > Team2Score {
+            return Team1.teamCountry
+        }else {
+            return Team2.teamCountry
+        }
+    }
     var oversFormat : OversFormat
     var ballType : BallType
     
@@ -26,16 +32,15 @@ class WorldCup : Tournament
         self.matchNumber = 0
         self.dateofMatch = Date()
         self.matchType = MatchType.None
-        self.matchWinningTeam = Team()
         self.Team1 = Team()
         self.Team2 = Team()
-        self.Team1Score = ""
-        self.Team2Score = ""
+        self.Team1Score = Int()
+        self.Team2Score = Int()
         self.oversFormat = OversFormat.FiftyOvers
         self.ballType = BallType.RedBall
     }
-    override func display() -> String
+    override func display()
     {
-        return "matchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam.teamCountry)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"oversFormat : \(oversFormat)"+"\nballType : \(ballType)"
+        print( "matchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"\noversFormat : \(oversFormat)"+"\nballType : \(ballType)")
     }
 }

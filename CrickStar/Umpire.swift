@@ -22,7 +22,7 @@ class Umpire : Person
         self.umpireRank = 0
     }
     
-    override func display() -> String {
-        return "umpireType : \(umpireType)"+"\nnumberofMatches : \(numberOfMatches)"+"\numpireRank : \(umpireRank)"
+    override func display() {
+        print( "personId : \(personId)"+"\npersonName : \(personName)"+"\npersonGender : \(personGender)"+"\npersonSponsor : \(personSponsor)\n" + "umpireType : \(umpireType)"+"\nnumberofMatches : \(numberOfMatches)"+"\numpireRank : \(umpireRank)")
     }
 }

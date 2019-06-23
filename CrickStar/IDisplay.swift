@@ -9,7 +9,7 @@
 import Foundation
 protocol Display
 {
-    func display()->String
+    func display()
 }
 
 enum MatchType

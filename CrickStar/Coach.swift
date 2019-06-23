@@ -20,8 +20,8 @@ class Coach : Person
         self.coachType = CoachType.None
     }
     
-    override func display() -> String
+    override func display()
     {
-        return "coachingCountry : \(coachingCountry)"+"\ncoachExperience : \(coachExperience)"+"\ncoachType : \(coachType)"
+        print( "personId : \(personId)"+"\npersonName : \(personName)"+"\npersonGender : \(personGender)"+"\npersonSponsor : \(personSponsor)\n" + "coachingCountry : \(coachingCountry)"+"\ncoachExperience : \(coachExperience)"+"\ncoachType : \(coachType)")
     }
 }

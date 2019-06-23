@@ -33,8 +33,8 @@ class T20WC : Tournament
         self.oversFormat = OversFormat.TwentyOvers
         self.ballType = BallType.WhiteBall
     }
-    override func display() -> String
+    override func display()
     {
-        return "matchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam.teamCountry)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"oversFormat : \(oversFormat)"+"\nballType : \(ballType)"
+        print( "matchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam.teamCountry)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"oversFormat : \(oversFormat)"+"\nballType : \(ballType)")
     }
 }
