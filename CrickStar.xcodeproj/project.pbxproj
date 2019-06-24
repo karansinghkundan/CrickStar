@@ -19,6 +19,7 @@
 		848258F022B5D78A008242BF /* T20WC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258EF22B5D78A008242BF /* T20WC.swift */; };
 		848258F222B5D8A3008242BF /* ChampionTrophy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848258F122B5D8A3008242BF /* ChampionTrophy.swift */; };
 		848258F522B5DFD8008242BF /* Persons.json in CopyFiles */ = {isa = PBXBuildFile; fileRef = 848258F322B5DA16008242BF /* Persons.json */; };
+		FB45555A22C077E70065B414 /* ExtensionDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB45555922C077E70065B414 /* ExtensionDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -57,6 +58,7 @@
 		848258EF22B5D78A008242BF /* T20WC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = T20WC.swift; sourceTree = "<group>"; };
 		848258F122B5D8A3008242BF /* ChampionTrophy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionTrophy.swift; sourceTree = "<group>"; };
 		848258F322B5DA16008242BF /* Persons.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Persons.json; sourceTree = "<group>"; };
+		FB45555922C077E70065B414 /* ExtensionDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				848258EF22B5D78A008242BF /* T20WC.swift */,
 				848258F122B5D8A3008242BF /* ChampionTrophy.swift */,
 				848258F322B5DA16008242BF /* Persons.json */,
+				FB45555922C077E70065B414 /* ExtensionDate.swift */,
 			);
 			path = CrickStar;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				848258EC22B5C51F008242BF /* Tournament.swift in Sources */,
+				FB45555A22C077E70065B414 /* ExtensionDate.swift in Sources */,
 				848258EE22B5CDFA008242BF /* WorldCup.swift in Sources */,
 				848258E022B5AD45008242BF /* Player.swift in Sources */,
 				848258E222B5AFC5008242BF /* IDisplay.swift in Sources */,

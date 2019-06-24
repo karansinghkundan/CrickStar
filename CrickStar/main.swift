@@ -52,41 +52,41 @@ player2.inPlaying = true
 
 var player3: Player = Player()
 
-player2.personId = 3
+player3.personId = 3
 
-player2.personName = "Kohli"
+player3.personName = "Kohli"
 
-player2.personGender = Gender.Male
+player3.personGender = Gender.Male
 
-player2.personSponsor = "Sahara"
+player3.personSponsor = "Sahara"
 
-player2.playerType = PlayerType.Batsman
+player3.playerType = PlayerType.Batsman
 
-player2.countryName = "India"
+player3.countryName = "India"
 
-player2.playerJerseyNo = 96
+player3.playerJerseyNo = 96
 
-player2.inPlaying = true
+player3.inPlaying = true
 
 
 
 var player4: Player = Player()
 
-player1.personId = 4
+player4.personId = 4
 
-player1.personName = "Dhoni"
+player4.personName = "Dhoni"
 
-player1.personGender = Gender.Male
+player4.personGender = Gender.Male
 
-player1.personSponsor = "Sahara"
+player4.personSponsor = "Sahara"
 
-player1.playerType = PlayerType.Batsman
+player4.playerType = PlayerType.Batsman
 
-player1.countryName = "India"
+player4.countryName = "India"
 
-player1.playerJerseyNo = 99
+player4.playerJerseyNo = 99
 
-player1.inPlaying = true
+player4.inPlaying = true
 
 
 
@@ -94,41 +94,41 @@ player1.inPlaying = true
 
 var player5: Player = Player()
 
-player1.personId = 5
+player5.personId = 5
 
-player1.personName = "Shami"
+player5.personName = "Shami"
 
-player1.personGender = Gender.Male
+player5.personGender = Gender.Male
 
-player1.personSponsor = "Sahara"
+player5.personSponsor = "Sahara"
 
-player1.playerType = PlayerType.Bowler
+player5.playerType = PlayerType.Bowler
 
-player1.countryName = "India"
+player5.countryName = "India"
 
-player1.playerJerseyNo = 90
+player5.playerJerseyNo = 90
 
-player1.inPlaying = true
+player5.inPlaying = true
 
 
 
 var player6: Player = Player()
 
-player1.personId = 6
+player6.personId = 6
 
-player1.personName = "Hayden"
+player6.personName = "Hayden"
 
-player1.personGender = Gender.Male
+player6.personGender = Gender.Male
 
-player1.personSponsor = "Alinta energy"
+player6.personSponsor = "Alinta energy"
 
-player1.playerType = PlayerType.Batsman
+player6.playerType = PlayerType.Batsman
 
-player1.countryName = "Australia"
+player6.countryName = "Australia"
 
-player1.playerJerseyNo = 85
+player6.playerJerseyNo = 85
 
-player1.inPlaying = true
+player6.inPlaying = true
 
 
 
@@ -136,21 +136,21 @@ player1.inPlaying = true
 
 var player7: Player = Player()
 
-player1.personId = 7
+player7.personId = 7
 
-player1.personName = "Gilchrist"
+player7.personName = "Gilchrist"
 
-player1.personGender = Gender.Male
+player7.personGender = Gender.Male
 
-player1.personSponsor = "Alinta Energy"
+player7.personSponsor = "Alinta Energy"
 
-player1.playerType = PlayerType.Batsman
+player7.playerType = PlayerType.Batsman
 
-player1.countryName = "Australia"
+player7.countryName = "Australia"
 
-player1.playerJerseyNo = 86
+player7.playerJerseyNo = 86
 
-player1.inPlaying = true
+player7.inPlaying = true
 
 
 
@@ -158,41 +158,41 @@ player1.inPlaying = true
 
 var player8: Player = Player()
 
-player1.personId = 8
+player8.personId = 8
 
-player1.personName = "Ponting"
+player8.personName = "Ponting"
 
-player1.personGender = Gender.Male
+player8.personGender = Gender.Male
 
-player1.personSponsor = "Alinta Energy"
+player8.personSponsor = "Alinta Energy"
 
-player1.playerType = PlayerType.Batsman
+player8.playerType = PlayerType.Batsman
 
-player1.countryName = "Australia"
+player8.countryName = "Australia"
 
-player1.playerJerseyNo = 87
+player8.playerJerseyNo = 87
 
-player1.inPlaying = true
+player8.inPlaying = true
 
 
 
 var player9: Player = Player()
 
-player1.personId = 9
+player9.personId = 9
 
-player1.personName = "maxwell"
+player9.personName = "maxwell"
 
-player1.personGender = Gender.Male
+player9.personGender = Gender.Male
 
-player1.personSponsor = "Alinta Energy"
+player9.personSponsor = "Alinta Energy"
 
-player1.playerType = PlayerType.Batsman
+player9.playerType = PlayerType.Batsman
 
-player1.countryName = "India"
+player9.countryName = "India"
 
-player1.playerJerseyNo = 88
+player9.playerJerseyNo = 88
 
-player1.inPlaying = true
+player9.inPlaying = true
 
 
 
@@ -200,41 +200,41 @@ player1.inPlaying = true
 
 var player10: Player = Player()
 
-player1.personId = 10
+player10.personId = 10
 
-player1.personName = "Brett lee"
+player10.personName = "Brett lee"
 
-player1.personGender = Gender.Male
+player10.personGender = Gender.Male
 
-player1.personSponsor = "Alinta Energy"
+player10.personSponsor = "Alinta Energy"
 
-player1.playerType = PlayerType.Bowler
+player10.playerType = PlayerType.Bowler
 
-player1.countryName = "Australia"
+player10.countryName = "Australia"
 
-player1.playerJerseyNo = 89
+player10.playerJerseyNo = 89
 
-player1.inPlaying = true
+player10.inPlaying = true
 
 
 
 var player11: Player = Player()
 
-player1.personId = 11
+player11.personId = 11
 
-player1.personName = "Gibbs"
+player11.personName = "Gibbs"
 
-player1.personGender = Gender.Male
+player11.personGender = Gender.Male
 
-player1.personSponsor = "Asix"
+player11.personSponsor = "Asix"
 
-player1.playerType = PlayerType.Batsman
+player11.playerType = PlayerType.Batsman
 
-player1.countryName = "South Africa"
+player11.countryName = "South Africa"
 
-player1.playerJerseyNo = 75
+player11.playerJerseyNo = 75
 
-player1.inPlaying = true
+player11.inPlaying = true
 
 
 
@@ -242,61 +242,61 @@ player1.inPlaying = true
 
 var player12: Player = Player()
 
-player1.personId = 12
+player12.personId = 12
 
-player1.personName = "dekock"
+player12.personName = "dekock"
 
-player1.personGender = Gender.Male
+player12.personGender = Gender.Male
 
-player1.personSponsor = "Asix"
+player12.personSponsor = "Asix"
 
-player1.playerType = PlayerType.Batsman
+player12.playerType = PlayerType.Batsman
 
-player1.countryName = "South Africa"
+player12.countryName = "South Africa"
 
-player1.playerJerseyNo = 76
+player12.playerJerseyNo = 76
 
-player1.inPlaying = true
+player12.inPlaying = true
 
 
 
 var player13: Player = Player()
 
-player1.personId = 13
+player13.personId = 13
 
-player1.personName = "Amla"
+player13.personName = "Amla"
 
-player1.personGender = Gender.Male
+player13.personGender = Gender.Male
 
-player1.personSponsor = "Asix"
+player13.personSponsor = "Asix"
 
-player1.playerType = PlayerType.Batsman
+player13.playerType = PlayerType.Batsman
 
-player1.countryName = "South Africa"
+player13.countryName = "South Africa"
 
-player1.playerJerseyNo = 77
+player13.playerJerseyNo = 77
 
-player1.inPlaying = true
+player13.inPlaying = true
 
 
 
 var player14: Player = Player()
 
-player1.personId = 14
+player14.personId = 14
 
-player1.personName = "Devilers"
+player14.personName = "Devilers"
 
-player1.personGender = Gender.Male
+player14.personGender = Gender.Male
 
-player1.personSponsor = "Asix"
+player14.personSponsor = "Asix"
 
-player1.playerType = PlayerType.Batsman
+player14.playerType = PlayerType.Batsman
 
-player1.countryName = "Australia"
+player14.countryName = "Australia"
 
-player1.playerJerseyNo = 78
+player14.playerJerseyNo = 78
 
-player1.inPlaying = true
+player14.inPlaying = true
 
 
 
@@ -304,21 +304,21 @@ player1.inPlaying = true
 
 var player15: Player = Player()
 
-player1.personId = 15
+player15.personId = 15
 
-player1.personName = "Andrew Nill"
+player15.personName = "Andrew Nill"
 
-player1.personGender = Gender.Male
+player15.personGender = Gender.Male
 
-player1.personSponsor = "Asix"
+player15.personSponsor = "Asix"
 
-player1.playerType = PlayerType.Bowler
+player15.playerType = PlayerType.Bowler
 
-player1.countryName = "Australia"
+player15.countryName = "Australia"
 
-player1.playerJerseyNo = 79
+player15.playerJerseyNo = 79
 
-player1.inPlaying = true
+player15.inPlaying = true
 
 
 
@@ -326,21 +326,21 @@ player1.inPlaying = true
 
 var player16: Player = Player()
 
-player1.personId = 16
+player16.personId = 16
 
-player1.personName = "Farhat"
+player16.personName = "Farhat"
 
-player1.personGender = Gender.Male
+player16.personGender = Gender.Male
 
-player1.personSponsor = "Pepsi"
+player16.personSponsor = "Pepsi"
 
-player1.playerType = PlayerType.Batsman
+player16.playerType = PlayerType.Batsman
 
-player1.countryName = "PAkistan"
+player16.countryName = "PAkistan"
 
-player1.playerJerseyNo = 65
+player16.playerJerseyNo = 65
 
-player1.inPlaying = true
+player16.inPlaying = true
 
 
 
@@ -348,141 +348,141 @@ player1.inPlaying = true
 
 var player17: Player = Player()
 
-player1.personId = 17
+player17.personId = 17
 
-player1.personName = "Hameed"
+player17.personName = "Hameed"
 
-player1.personGender = Gender.Male
+player17.personGender = Gender.Male
 
-player1.personSponsor = "Pepsi"
+player17.personSponsor = "Pepsi"
 
-player1.playerType = PlayerType.Batsman
+player17.playerType = PlayerType.Batsman
 
-player1.countryName = "Pakistan"
+player17.countryName = "Pakistan"
 
-player1.playerJerseyNo = 66
+player17.playerJerseyNo = 66
 
-player1.inPlaying = true
+player17.inPlaying = true
 
 
 
 var player18: Player = Player()
 
-player1.personId = 18
+player18.personId = 18
 
-player1.personName = "Shoib Malik"
+player18.personName = "Shoib Malik"
 
-player1.personGender = Gender.Male
+player18.personGender = Gender.Male
 
-player1.personSponsor = "Pepsi"
+player18.personSponsor = "Pepsi"
 
-player1.playerType = PlayerType.Batsman
+player18.playerType = PlayerType.Batsman
 
-player1.countryName = "Pakistan"
+player18.countryName = "Pakistan"
 
-player1.playerJerseyNo = 67
+player18.playerJerseyNo = 67
 
-player1.inPlaying = true
+player18.inPlaying = true
 
 
 
 var player19: Player = Player()
 
-player1.personId = 19
+player19.personId = 19
 
-player1.personName = "Sarfaraz"
+player19.personName = "Sarfaraz"
 
-player1.personGender = Gender.Male
+player19.personGender = Gender.Male
 
-player1.personSponsor = "Pepsi"
+player19.personSponsor = "Pepsi"
 
-player1.playerType = PlayerType.Batsman
+player19.playerType = PlayerType.Batsman
 
-player1.countryName = "Pakistan"
+player19.countryName = "Pakistan"
 
-player1.playerJerseyNo = 68
+player19.playerJerseyNo = 68
 
-player1.inPlaying = true
+player19.inPlaying = true
 
 
 
 var player20: Player = Player()
 
-player1.personId = 20
+player20.personId = 20
 
-player1.personName = "Shoib Akhtar"
+player20.personName = "Shoib Akhtar"
 
-player1.personGender = Gender.Male
+player20.personGender = Gender.Male
 
-player1.personSponsor = "Pepsi"
+player20.personSponsor = "Pepsi"
 
-player1.playerType = PlayerType.Bowler
+player20.playerType = PlayerType.Bowler
 
-player1.countryName = "Pakistan"
+player20.countryName = "Pakistan"
 
-player1.playerJerseyNo = 69
+player20.playerJerseyNo = 69
 
-player1.inPlaying = true
+player20.inPlaying = true
 
 
 
 var player21: Player = Player()
 
-player1.personId = 21
+player21.personId = 21
 
-player1.personName = "Sanath Jayasuriya"
+player21.personName = "Sanath Jayasuriya"
 
-player1.personGender = Gender.Male
+player21.personGender = Gender.Male
 
-player1.personSponsor = "Dialog"
+player21.personSponsor = "Dialog"
 
-player1.playerType = PlayerType.Batsman
+player21.playerType = PlayerType.Batsman
 
-player1.countryName = "Sri Lanka"
+player21.countryName = "Sri Lanka"
 
-player1.playerJerseyNo = 55
+player21.playerJerseyNo = 55
 
-player1.inPlaying = true
+player21.inPlaying = true
 
 
 
 var player22: Player = Player()
 
-player1.personId = 22
+player22.personId = 22
 
-player1.personName = "Marvan Attapattu"
+player22.personName = "Marvan Attapattu"
 
-player1.personGender = Gender.Male
+player22.personGender = Gender.Male
 
-player1.personSponsor = "Dialog"
+player22.personSponsor = "Dialog"
 
-player1.playerType = PlayerType.Batsman
+player22.playerType = PlayerType.Batsman
 
-player1.countryName = "Sri Lanka"
+player22.countryName = "Sri Lanka"
 
-player1.playerJerseyNo = 56
+player22.playerJerseyNo = 56
 
-player1.inPlaying = true
+player22.inPlaying = true
 
 
 
 var player23: Player = Player()
 
-player1.personId = 23
+player23.personId = 23
 
-player1.personName = "Sangakara"
+player23.personName = "Sangakara"
 
-player1.personGender = Gender.Male
+player23.personGender = Gender.Male
 
-player1.personSponsor = "Dialog"
+player23.personSponsor = "Dialog"
 
-player1.playerType = PlayerType.Batsman
+player23.playerType = PlayerType.Batsman
 
-player1.countryName = "Sri Lanka"
+player23.countryName = "Sri Lanka"
 
-player1.playerJerseyNo = 57
+player23.playerJerseyNo = 57
 
-player1.inPlaying = true
+player23.inPlaying = true
 
 
 
@@ -490,41 +490,41 @@ player1.inPlaying = true
 
 var player24: Player = Player()
 
-player1.personId = 24
+player24.personId = 24
 
-player1.personName = "Mahila Jayavardne"
+player24.personName = "Mahila Jayavardne"
 
-player1.personGender = Gender.Male
+player24.personGender = Gender.Male
 
-player1.personSponsor = "Dialog"
+player24.personSponsor = "Dialog"
 
-player1.playerType = PlayerType.Batsman
+player24.playerType = PlayerType.Batsman
 
-player1.countryName = "Sri Lanka"
+player24.countryName = "Sri Lanka"
 
-player1.playerJerseyNo = 58
+player24.playerJerseyNo = 58
 
-player1.inPlaying = true
+player24.inPlaying = true
 
 
 
 var player25: Player = Player()
 
-player1.personId = 25
+player25.personId = 25
 
-player1.personName = "Lasith Malinga"
+player25.personName = "Lasith Malinga"
 
-player1.personGender = Gender.Male
+player25.personGender = Gender.Male
 
-player1.personSponsor = "Dialog"
+player25.personSponsor = "Dialog"
 
-player1.playerType = PlayerType.Bowler
+player25.playerType = PlayerType.Bowler
 
-player1.countryName = "Sri Lanka"
+player25.countryName = "Sri Lanka"
 
-player1.playerJerseyNo = 59
+player25.playerJerseyNo = 59
 
-player1.inPlaying = true
+player25.inPlaying = true
 
 
 
@@ -532,21 +532,21 @@ player1.inPlaying = true
 
 var player26: Player = Player()
 
-player1.personId = 26
+player26.personId = 26
 
-player1.personName = "Marcus Trescothik"
+player26.personName = "Marcus Trescothik"
 
-player1.personGender = Gender.Male
+player26.personGender = Gender.Male
 
-player1.personSponsor = "New Balance"
+player26.personSponsor = "New Balance"
 
-player1.playerType = PlayerType.Batsman
+player26.playerType = PlayerType.Batsman
 
-player1.countryName = "England"
+player26.countryName = "England"
 
-player1.playerJerseyNo = 45
+player26.playerJerseyNo = 45
 
-player1.inPlaying = true
+player26.inPlaying = true
 
 
 
@@ -826,7 +826,10 @@ team6.teamCountry = "England"
 team6.teamRank = 6
 team6.players = [player26,player27,player28,player29,player30]
 team6.teamHeadCoach = coach6.personName
-team2.display()
+
+
+
+
 
 var worldMatch1: WorldCup = WorldCup()
 worldMatch1.matchNumber = 1
@@ -837,6 +840,9 @@ worldMatch1.oversFormat = OversFormat.FiftyOvers
 worldMatch1.Team1Score = 250
 worldMatch1.Team2Score = 159
 worldMatch1.ballType = BallType.WhiteBall
+
+
+
 
 
 var t20Match1 : T20WC = T20WC()
@@ -865,20 +871,50 @@ t20Match3.matchNumber = 3
 t20Match3.matchType = MatchType.PlayOffs
 t20Match3.Team1 = team5
 t20Match3.Team2 = team6
-t20Match1.oversFormat = OversFormat.TwentyOvers
-t20Match1.Team1Score = 196
-t20Match1.Team2Score = 132
-t20Match1.ballType = BallType.RedBall
+t20Match3.oversFormat = OversFormat.TwentyOvers
+t20Match3.Team1Score = 196
+t20Match3.Team2Score = 132
+t20Match3.ballType = BallType.RedBall
 
-var t20Match4 : T20WC = T20WC()
-t20Match4.matchNumber = 4
-t20Match4.matchType = MatchType.PlayOffs
-t20Match4.Team1 = team1
-t20Match4.Team2 = team4
-t20Match1.oversFormat = OversFormat.TwentyOvers
-t20Match1.Team1Score = 175
-t20Match1.Team2Score = 172
-t20Match1.ballType = BallType.RedBall
+var t20Match5 : T20WC = T20WC()
+t20Match5.matchNumber = 5
+t20Match5.matchType = MatchType.PlayOffs
+t20Match5.Team1 = team2
+t20Match5.Team2 = team3
+t20Match5.oversFormat = OversFormat.TwentyOvers
+t20Match5.Team1Score = 48
+t20Match5.Team2Score = 143
+t20Match5.ballType = BallType.RedBall
+
+var t20Match6 : T20WC = T20WC()
+t20Match6.matchNumber = 6
+t20Match6.matchType = MatchType.SemiFinals
+t20Match6.Team1 = team1
+t20Match6.Team2 = team4
+t20Match6.oversFormat = OversFormat.TwentyOvers
+t20Match6.Team1Score = 234
+t20Match6.Team2Score = 172
+t20Match6.ballType = BallType.RedBall
+
+var t20Match7 : T20WC = T20WC()
+t20Match7.matchNumber = 7
+t20Match7.matchType = MatchType.SemiFinals
+t20Match7.Team1 = team3
+t20Match7.Team2 = team5
+t20Match7.oversFormat = OversFormat.TwentyOvers
+t20Match7.Team1Score = 155
+t20Match7.Team2Score = 127
+t20Match7.ballType = BallType.RedBall
+
+var t20Match8 : T20WC = T20WC()
+t20Match8.matchNumber = 8
+t20Match8.matchType = MatchType.Finals
+t20Match8.Team1 = team1
+t20Match8.Team2 = team3
+t20Match8.oversFormat = OversFormat.TwentyOvers
+t20Match8.Team1Score = 165
+t20Match8.Team2Score = 163
+t20Match8.ballType = BallType.RedBall
 
 
 
@@ -888,8 +924,30 @@ t20Match1.ballType = BallType.RedBall
 
 
 
-print("====================")
+
+
+
+print("**************************************************************")
+player11.display()
+
+
+print("**************************************************************")
+team6.display()
+
+print("**************************************************************")
+t20Match8.display()
+
+
+print("**************************************************************")
 worldMatch1.display()
 
-print("!!!!!!!@@&&&*****^^^^^^^^^^^^^^^")
-t20Match1.display()
+print("**************************************************************")
+umpire03.display()
+
+print("**************************************************************")
+coach3.display()
+
+
+
+
+
