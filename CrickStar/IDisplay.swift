@@ -15,6 +15,7 @@ protocol Display
 enum MatchType
 {
     case PlayOffs
+    case quarterfinals
     case SemiFinals
     case Finals
     case None

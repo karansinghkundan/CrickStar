@@ -11,7 +11,7 @@ class Tournament : Display
 {
     
     var tournamentID : Int
-    var startDate = Date()
+    var startDate : Date
     var endDate : Date
     var tournamentName : String
     var tournamentVenue : String

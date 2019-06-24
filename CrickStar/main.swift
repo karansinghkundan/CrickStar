@@ -841,6 +841,288 @@ worldMatch1.Team1Score = 250
 worldMatch1.Team2Score = 159
 worldMatch1.ballType = BallType.WhiteBall
 
+var worldMatch2: WorldCup = WorldCup()
+
+worldMatch2.matchNumber = 2
+
+worldMatch2.matchType = MatchType.PlayOffs
+
+worldMatch2.Team1 = team3
+
+worldMatch2.Team2 = team4
+
+worldMatch2.oversFormat = OversFormat.FiftyOvers
+
+worldMatch2.Team1Score = 225          //team 4 wins here
+
+worldMatch2.Team2Score = 226
+
+worldMatch2.ballType = BallType.WhiteBall
+
+
+
+var worldMatch3: WorldCup = WorldCup()
+
+worldMatch3.matchNumber = 3
+
+worldMatch3.matchType = MatchType.PlayOffs
+
+worldMatch3.Team1 = team5
+
+worldMatch3.Team2 = team6
+
+worldMatch3.oversFormat = OversFormat.FiftyOvers
+
+worldMatch3.Team1Score = 313         //team 5 wins here
+
+worldMatch3.Team2Score = 310
+
+worldMatch3.ballType = BallType.WhiteBall
+
+
+
+
+
+var worldMatch4: WorldCup = WorldCup()
+
+worldMatch4.matchNumber = 4
+
+worldMatch4.matchType = MatchType.PlayOffs
+
+worldMatch4.Team1 = team1
+
+worldMatch4.Team2 = team4
+
+worldMatch4.oversFormat = OversFormat.FiftyOvers
+
+worldMatch4.Team1Score = 220                //team 1 wins here
+
+worldMatch4.Team2Score = 210
+
+worldMatch4.ballType = BallType.WhiteBall
+
+
+
+
+
+var worldMatch5: WorldCup = WorldCup()
+
+worldMatch5.matchNumber = 5
+
+worldMatch5.matchType = MatchType.PlayOffs
+
+worldMatch5.Team1 = team2
+
+worldMatch5.Team2 = team3
+
+worldMatch5.oversFormat = OversFormat.FiftyOvers
+
+worldMatch5.Team1Score = 302               //team 2 wins here
+
+worldMatch5.Team2Score = 257
+
+worldMatch5.ballType = BallType.WhiteBall
+
+
+
+
+
+var worldMatch6: WorldCup = WorldCup()
+
+worldMatch6.matchNumber = 6
+
+worldMatch6.matchType = MatchType.PlayOffs
+
+worldMatch6.Team1 = team5
+
+worldMatch6.Team2 = team3
+
+worldMatch6.oversFormat = OversFormat.FiftyOvers
+
+worldMatch6.Team1Score = 250          //team 5 wins here
+
+worldMatch6.Team2Score = 159
+
+worldMatch6.ballType = BallType.WhiteBall
+
+
+
+
+
+// Quarter finals starts here
+
+
+
+
+
+var worldMatch7: WorldCup = WorldCup()
+
+worldMatch7.matchNumber = 7
+
+worldMatch7.matchType = MatchType.quarterfinals
+
+worldMatch7.Team1 = team1
+
+worldMatch7.Team2 = team4
+
+worldMatch7.oversFormat = OversFormat.FiftyOvers
+
+worldMatch7.Team1Score = 333     //team 1 wins here
+
+worldMatch7.Team2Score = 312
+
+worldMatch7.ballType = BallType.WhiteBall
+
+
+
+var worldMatch8: WorldCup = WorldCup()
+
+worldMatch8.matchNumber = 8
+
+worldMatch8.matchType = MatchType.quarterfinals
+
+worldMatch8.Team1 = team5  //team 5 wins here
+
+worldMatch8.Team2 = team3
+
+worldMatch8.oversFormat = OversFormat.FiftyOvers
+
+worldMatch8.Team1Score = 312     // team 5 wins here
+
+worldMatch8.Team2Score = 309
+
+worldMatch8.ballType = BallType.WhiteBall
+
+
+
+
+
+var worldMatch9: WorldCup = WorldCup()
+
+worldMatch9.matchNumber = 9
+
+worldMatch9.matchType = MatchType.quarterfinals
+
+worldMatch9.Team1 = team2
+
+worldMatch9.Team2 = team6
+
+worldMatch9.oversFormat = OversFormat.FiftyOvers
+
+worldMatch9.Team1Score = 264
+
+worldMatch9.Team2Score = 261     //team 2 wins here
+
+worldMatch9.ballType = BallType.WhiteBall
+
+
+
+
+
+var worldMatch10 : WorldCup = WorldCup()
+
+worldMatch10.matchNumber = 10
+
+worldMatch10.matchType = MatchType.quarterfinals
+
+worldMatch10.Team1 = team3
+
+worldMatch10.Team2 = team4
+
+worldMatch10.oversFormat = OversFormat.FiftyOvers
+
+worldMatch10.Team1Score = 202
+
+worldMatch10.Team2Score = 204        //team 4 wins here0
+
+worldMatch10.ballType = BallType.WhiteBall
+
+
+
+
+
+
+
+
+
+// Team 1, team 5, team 4, team 2 qualifies to semi finals
+
+
+
+var worldMatch11: WorldCup = WorldCup()
+
+worldMatch11.matchNumber = 11
+
+worldMatch11.matchType = MatchType.SemiFinals
+
+worldMatch11.Team1 = team1
+
+worldMatch11.Team2 = team5
+
+worldMatch11.oversFormat = OversFormat.FiftyOvers
+
+worldMatch11.Team1Score = 378
+
+worldMatch11.Team2Score = 377      // team 1 wins here
+
+worldMatch11.ballType = BallType.WhiteBall
+
+
+
+var worldMatch12: WorldCup = WorldCup()
+
+worldMatch12.matchNumber = 12
+
+worldMatch12.matchType = MatchType.SemiFinals
+
+worldMatch12.Team1 = team2
+
+worldMatch12.Team2 = team4
+
+worldMatch12.oversFormat = OversFormat.FiftyOvers
+
+worldMatch12.Team1Score = 275
+
+worldMatch12.Team2Score = 256     //team 2 wins here
+
+worldMatch12.ballType = BallType.WhiteBall
+
+
+
+
+
+//team 1 and team 2 are in finals
+
+
+
+
+
+var worldMatch13: WorldCup = WorldCup()
+
+worldMatch13.matchNumber = 13
+
+worldMatch13.matchType = MatchType.quarterfinals
+
+worldMatch13.Team1 = team1
+
+worldMatch13.Team2 = team2
+
+worldMatch13.oversFormat = OversFormat.FiftyOvers
+
+worldMatch13.Team1Score = 412
+
+worldMatch13.Team2Score = 411      //team 1 wins here
+
+worldMatch13.ballType = BallType.WhiteBall
+
+
+
+
+
+// ***************************TEAM 1 WINS THE WORLD CUP**********************************
+
+
+
 
 
 
@@ -898,6 +1180,7 @@ t20Match6.ballType = BallType.RedBall
 
 var t20Match7 : T20WC = T20WC()
 t20Match7.matchNumber = 7
+t20Match7.tournamentVenue = "lords"
 t20Match7.matchType = MatchType.SemiFinals
 t20Match7.Team1 = team3
 t20Match7.Team2 = team5
@@ -935,11 +1218,11 @@ print("**************************************************************")
 team6.display()
 
 print("**************************************************************")
-t20Match8.display()
+t20Match7.display()
 
 
 print("**************************************************************")
-worldMatch1.display()
+worldMatch8.display()
 
 print("**************************************************************")
 umpire03.display()
