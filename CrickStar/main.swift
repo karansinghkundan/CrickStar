@@ -861,14 +861,25 @@ t20Match2.Team2Score = 167
 t20Match2.ballType = BallType.RedBall
 
 var t20Match3 : T20WC = T20WC()
-t20Match3.matchNumber = 1
+t20Match3.matchNumber = 3
 t20Match3.matchType = MatchType.PlayOffs
-t20Match3.Team1 = team1
-t20Match3.Team2 = team2
+t20Match3.Team1 = team5
+t20Match3.Team2 = team6
+t20Match1.oversFormat = OversFormat.TwentyOvers
+t20Match1.Team1Score = 196
+t20Match1.Team2Score = 132
+t20Match1.ballType = BallType.RedBall
+
+var t20Match4 : T20WC = T20WC()
+t20Match4.matchNumber = 4
+t20Match4.matchType = MatchType.PlayOffs
+t20Match4.Team1 = team1
+t20Match4.Team2 = team4
 t20Match1.oversFormat = OversFormat.TwentyOvers
 t20Match1.Team1Score = 175
 t20Match1.Team2Score = 172
 t20Match1.ballType = BallType.RedBall
+
 
 
 
