@@ -30,21 +30,21 @@ player1.inPlaying = true
 
 var player2: Player = Player()
 
-player1.personId = 2
+player2.personId = 2
 
-player1.personName = "Sachin"
+player2.personName = "Sachin"
 
-player1.personGender = Gender.Male
+player2.personGender = Gender.Male
 
-player1.personSponsor = "Sahara"
+player2.personSponsor = "Sahara"
 
-player1.playerType = PlayerType.Batsman
+player2.playerType = PlayerType.Batsman
 
-player1.countryName = "India"
+player2.countryName = "India"
 
-player1.playerJerseyNo = 94
+player2.playerJerseyNo = 94
 
-player1.inPlaying = true
+player2.inPlaying = true
 
 
 
@@ -554,81 +554,81 @@ player1.inPlaying = true
 
 var player27: Player = Player()
 
-player1.personId = 27
+player27.personId = 27
 
-player1.personName = "Andrew Strauss"
+player27.personName = "Andrew Strauss"
 
-player1.personGender = Gender.Male
+player27.personGender = Gender.Male
 
-player1.personSponsor = "New Balance"
+player27.personSponsor = "New Balance"
 
-player1.playerType = PlayerType.Batsman
+player27.playerType = PlayerType.Batsman
 
-player1.countryName = "England"
+player27.countryName = "England"
 
-player1.playerJerseyNo = 46
+player27.playerJerseyNo = 46
 
-player1.inPlaying = true
+player27.inPlaying = true
 
 
 
 var player28: Player = Player()
 
-player1.personId = 28
+player28.personId = 28
 
-player1.personName = "Joe Root"
+player28.personName = "Joe Root"
 
-player1.personGender = Gender.Male
+player28.personGender = Gender.Male
 
-player1.personSponsor = "New Balance"
+player28.personSponsor = "New Balance"
 
-player1.playerType = PlayerType.Batsman
+player28.playerType = PlayerType.Batsman
 
-player1.countryName = "England"
+player28.countryName = "England"
 
-player1.playerJerseyNo = 47
+player28.playerJerseyNo = 47
 
-player1.inPlaying = true
+player28.inPlaying = true
 
 
 
 var player29: Player = Player()
 
-player1.personId = 29
+player29.personId = 29
 
-player1.personName = "Buttler"
+player29.personName = "Buttler"
 
-player1.personGender = Gender.Male
+player29.personGender = Gender.Male
 
-player1.personSponsor = "New Balance"
+player29.personSponsor = "New Balance"
 
-player1.playerType = PlayerType.Batsman
+player29.playerType = PlayerType.Batsman
 
-player1.countryName = "England"
+player29.countryName = "England"
 
-player1.playerJerseyNo = 48
+player29.playerJerseyNo = 48
 
-player1.inPlaying = true
+player29.inPlaying = true
 
 
 
 var player30: Player = Player()
 
-player1.personId = 30
+player30.personId = 30
 
-player1.personName = "Panesar"
+player30.personName = "Panesar"
 
-player1.personGender = Gender.Male
+player30.personGender = Gender.Male
 
-player1.personSponsor = "New Balance"
+player30.personSponsor = "New Balance"
 
-player1.playerType = PlayerType.Batsman
+player30.playerType = PlayerType.Batsman
 
-player1.countryName = "England"
+player30.countryName = "England"
 
-player1.playerJerseyNo = 49
+player30.playerJerseyNo = 49
 
-player1.inPlaying = true
+player30.inPlaying = true
 
 
 
@@ -761,22 +761,31 @@ coach3.coachType = CoachType.HeadCoach
 coach3.coachExperience = 7
 
 var coach4: Coach = Coach()
-coach3.personId = 112
-coach3.personName = "gary kirsten"
-coach3.personSponsor = "puma"
-coach3.personGender = Gender.Male
-coach3.coachingCountry = "SouthAfrica"
-coach3.coachType = CoachType.HeadCoach
-coach3.coachExperience = 7
+coach4.personId = 112
+coach4.personName = "gary kirsten"
+coach4.personSponsor = "puma"
+coach4.personGender = Gender.Male
+coach4.coachingCountry = "SouthAfrica"
+coach4.coachType = CoachType.HeadCoach
+coach4.coachExperience = 7
 
 var coach5: Coach = Coach()
-coach2.personId = 112
-coach2.personName = "gary kirsten"
-coach2.personSponsor = "puma"
-coach2.personGender = Gender.Male
-coach2.coachingCountry = "SouthAfrica"
-coach2.coachType = CoachType.HeadCoach
-coach2.coachExperience = 7
+coach5.personId = 112
+coach5.personName = "gary kirsten"
+coach5.personSponsor = "puma"
+coach5.personGender = Gender.Male
+coach5.coachingCountry = "SouthAfrica"
+coach5.coachType = CoachType.HeadCoach
+coach5.coachExperience = 7
+
+var coach6: Coach = Coach()
+coach6.personId = 112
+coach6.personName = "Rutherford"
+coach6.personSponsor = "natwest"
+coach6.personGender = Gender.Male
+coach6.coachingCountry = "England"
+coach6.coachType = CoachType.HeadCoach
+coach6.coachExperience = 7
 
 var team1: Team = Team()
 team1.teamCountry = "India"
@@ -816,8 +825,8 @@ var team6: Team = Team()
 team6.teamCountry = "England"
 team6.teamRank = 6
 team6.players = [player26,player27,player28,player29,player30]
-team6.teamHeadCoach = coach1.personName
-team6.display()
+team6.teamHeadCoach = coach6.personName
+team2.display()
 
 var worldMatch1: WorldCup = WorldCup()
 worldMatch1.matchNumber = 1
@@ -829,5 +838,47 @@ worldMatch1.Team1Score = 250
 worldMatch1.Team2Score = 159
 worldMatch1.ballType = BallType.WhiteBall
 
+
+var t20Match1 : T20WC = T20WC()
+t20Match1.matchNumber = 1
+t20Match1.matchType = MatchType.PlayOffs
+t20Match1.Team1 = team1
+t20Match1.Team2 = team2
+t20Match1.oversFormat = OversFormat.TwentyOvers
+t20Match1.Team1Score = 175
+t20Match1.Team2Score = 172
+t20Match1.ballType = BallType.RedBall
+
+
+var t20Match2 : T20WC = T20WC()
+t20Match2.matchNumber = 2
+t20Match2.matchType = MatchType.PlayOffs
+t20Match2.Team1 = team3
+t20Match2.Team2 = team4
+t20Match2.oversFormat = OversFormat.TwentyOvers
+t20Match2.Team1Score = 165
+t20Match2.Team2Score = 167
+t20Match2.ballType = BallType.RedBall
+
+var t20Match3 : T20WC = T20WC()
+t20Match3.matchNumber = 1
+t20Match3.matchType = MatchType.PlayOffs
+t20Match3.Team1 = team1
+t20Match3.Team2 = team2
+t20Match1.oversFormat = OversFormat.TwentyOvers
+t20Match1.Team1Score = 175
+t20Match1.Team2Score = 172
+t20Match1.ballType = BallType.RedBall
+
+
+
+
+
+
+
+
 print("====================")
 worldMatch1.display()
+
+print("!!!!!!!@@&&&*****^^^^^^^^^^^^^^^")
+t20Match1.display()
