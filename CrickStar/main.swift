@@ -1201,7 +1201,15 @@ t20Match8.Team1Score = 165
 t20Match8.Team2Score = 163
 t20Match8.ballType = BallType.RedBall
 
-
+var championTrophy1 : ChampionTrophy = ChampionTrophy()
+championTrophy1.matchNumber = 1
+championTrophy1.matchType = MatchType.PlayOffs
+championTrophy1.Team1 = team1
+championTrophy1.Team2 = team2
+championTrophy1.oversFormat = OversFormat.FortyOvers
+championTrophy1.Team1Score = 232
+championTrophy1.Team2Score = 230
+championTrophy1.ballType = BallType.PinkBall
 
 
 
@@ -1231,6 +1239,10 @@ umpire03.display()
 
 print("**************************************************************")
 coach3.display()
+
+
+print("**************************************************************")
+championTrophy1.display()
 
 
 
