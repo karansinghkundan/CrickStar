@@ -41,6 +41,6 @@ class WorldCup : Tournament
     }
     override func display()
     {
-        print( "matchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"\noversFormat : \(oversFormat)"+"\nballType : \(ballType)")
+        print( "tournamentID : \(tournamentID)"+"\ntournamentVenue : \(tournamentVenue)"+"\nmatchNumber : \(matchNumber)"+"\ndateofMatch : \(dateofMatch)"+"\nmatchType : \(matchType)"+"\nmatchWinningTeam : \(matchWinningTeam)"+"\nTeam1 : \(Team1.teamCountry)"+"\nTeam2 : \(Team2.teamCountry)"+"\nTeam1Score : \(Team1Score)"+"\nTeam2Score : \(Team2Score)"+"\noversFormat : \(oversFormat)"+"\nballType : \(ballType)")
     }
 }

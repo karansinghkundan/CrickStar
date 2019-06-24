@@ -1100,6 +1100,8 @@ worldMatch12.ballType = BallType.WhiteBall
 var worldMatch13: WorldCup = WorldCup()
 
 worldMatch13.matchNumber = 13
+worldMatch13.tournamentID = 1
+worldMatch13.tournamentVenue = "lords"
 
 worldMatch13.matchType = MatchType.quarterfinals
 
@@ -1211,18 +1213,18 @@ t20Match8.ballType = BallType.RedBall
 
 
 print("**************************************************************")
-player11.display()
+player17.display()
 
 
 print("**************************************************************")
-team6.display()
+team5.display()
 
 print("**************************************************************")
-t20Match7.display()
+t20Match6.display()
 
 
 print("**************************************************************")
-worldMatch8.display()
+worldMatch12.display()
 
 print("**************************************************************")
 umpire03.display()
