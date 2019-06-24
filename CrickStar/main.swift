@@ -747,34 +747,34 @@ coach2.personId = 112
 coach2.personName = "gary kirsten"
 coach2.personSponsor = "puma"
 coach2.personGender = Gender.Male
-coach2.coachingCountry = "SouthAfrica"
+coach2.coachingCountry = "Australia"
 coach2.coachType = CoachType.HeadCoach
 coach2.coachExperience = 7
 
 var coach3: Coach = Coach()
 coach3.personId = 112
-coach3.personName = "gary kirsten"
-coach3.personSponsor = "puma"
+coach3.personName = "grey brat"
+coach3.personSponsor = "us times"
 coach3.personGender = Gender.Male
-coach3.coachingCountry = "SouthAfrica"
+coach3.coachingCountry = "South Africa"
 coach3.coachType = CoachType.HeadCoach
-coach3.coachExperience = 7
+coach3.coachExperience = 2
 
 var coach4: Coach = Coach()
 coach4.personId = 112
-coach4.personName = "gary kirsten"
-coach4.personSponsor = "puma"
+coach4.personName = "Ricky martin"
+coach4.personSponsor = "zeven"
 coach4.personGender = Gender.Male
-coach4.coachingCountry = "SouthAfrica"
+coach4.coachingCountry = "Pakistan"
 coach4.coachType = CoachType.HeadCoach
 coach4.coachExperience = 7
 
 var coach5: Coach = Coach()
 coach5.personId = 112
-coach5.personName = "gary kirsten"
-coach5.personSponsor = "puma"
+coach5.personName = "c.silva"
+coach5.personSponsor = "Dilara"
 coach5.personGender = Gender.Male
-coach5.coachingCountry = "SouthAfrica"
+coach5.coachingCountry = "Srilanka"
 coach5.coachType = CoachType.HeadCoach
 coach5.coachExperience = 7
 
@@ -797,28 +797,28 @@ var team2: Team = Team()
 team2.teamCountry = "Australia"
 team2.teamRank = 2
 team2.players = [player6,player7,player8,player9,player10]
-team2.teamHeadCoach = coach1.personName
+team2.teamHeadCoach = coach2.personName
 
 
 var team3: Team = Team()
 team3.teamCountry = "South Africa"
 team3.teamRank = 3
 team3.players = [player11,player12,player13,player14,player15]
-team3.teamHeadCoach = coach1.personName
+team3.teamHeadCoach = coach3.personName
 
 
 var team4: Team = Team()
 team4.teamCountry = "Pakistan"
 team4.teamRank = 4
 team4.players = [player16,player17,player18,player19,player20]
-team4.teamHeadCoach = coach1.personName
+team4.teamHeadCoach = coach4.personName
 
 
 var team5: Team = Team()
 team5.teamCountry = "Srilanka"
 team5.teamRank = 5
 team5.players = [player21,player22,player23,player24,player25]
-team5.teamHeadCoach = coach1.personName
+team5.teamHeadCoach = coach5.personName
 
 
 var team6: Team = Team()
